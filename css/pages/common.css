@@ -1,16 +1,17 @@
-body{
-    /* Здесь будет основной шрифт проекта */
-
-    /* цвет фона всего цена  */
-}
-
 .wrapper{
-    overflow: hidden;
-    display: flex;
-    flex-direction: column;
-    min-height: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
 }
 
-.container{
-    /* Здесь будут стили контейнера */
+/* ---------------------- */
+
+.main{
+  flex: 1 1 auto;
+}
+
+[class*="__container"]{
+  max-width: 1232px;
+  margin: 0 auto;
 }

@@ -1,0 +1,26 @@
+.header__container{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+.header_title{
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+
+.menu{
+    display: flex;
+    gap: 24px;
+
+    font-size: 17px;
+    font-family: sans-serif;
+    font-weight: 400;
+}
+
+.menu__link{
+    color: var(--carbon-fiber);
+}
+

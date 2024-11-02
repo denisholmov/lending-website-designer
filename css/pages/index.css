@@ -1,2 +1,4 @@
 @import url("./common.css");
-@import url("./header/header.css")
+@import url("./header/header.css");
+@import url("./visual-designer/visual-designer.css");
+@import url("./logo-bar/logo-bar.css");
