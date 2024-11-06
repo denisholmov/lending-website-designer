@@ -1,4 +1,16 @@
+.log-bar{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
 .logo-bar__container{
     display: flex;
     justify-content: space-between;
+}
+
+
+
+.logo-bar__container div img{
+    width: 100%;
+    height: auto;
 }
