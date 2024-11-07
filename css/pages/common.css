@@ -1,17 +1,19 @@
-.wrapper{
+.wrapper {
   overflow: hidden;
   display: flex;
   flex-direction: column;
   min-height: 100%;
+
+  font-family: sans-serif;
 }
 
 /* ---------------------- */
 
-.main{
+.main {
   flex: 1 1 auto;
 }
 
-[class*="__container"]{
+[class*='__container'] {
   max-width: 1232px;
   margin: 0 auto;
 }

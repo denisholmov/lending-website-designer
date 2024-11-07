@@ -1,0 +1,26 @@
+.latest-work {
+  padding-top: 42px;
+  padding-bottom: 42px;
+}
+
+.latest-work__container h2 {
+  margin-bottom: 42px;
+  text-align: center;
+}
+
+.project {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-gap: 24px;
+}
+
+.project__item {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.project__item img {
+  margin-bottom: 16px;
+}

@@ -1,0 +1,27 @@
+.services__container {
+  display: flex;
+  justify-content: space-between;
+
+  padding-top: 42px;
+  padding-bottom: 42px;
+}
+
+.services__option {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+
+  margin: 64px 42px;
+}
+
+.services__option p {
+  text-align: center;
+}
+
+.services__option img {
+  margin-bottom: 30px;
+
+  width: 124px;
+  height: auto;
+}
