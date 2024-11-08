@@ -5,6 +5,7 @@
   min-height: 100%;
 
   font-family: sans-serif;
+  line-height: 1.5;
 }
 
 /* ---------------------- */
@@ -16,4 +17,9 @@
 [class*='__container'] {
   max-width: 1232px;
   margin: 0 auto;
+}
+
+.title {
+  font-size: 32px;
+  font-weight: 600;
 }
