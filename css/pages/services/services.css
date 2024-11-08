@@ -15,13 +15,20 @@
   margin: 64px 42px;
 }
 
-.services__option p {
-  text-align: center;
-}
-
 .services__option img {
   margin-bottom: 30px;
 
   width: 124px;
   height: auto;
+}
+
+.services__option h2 {
+  font-size: 27px;
+  font-weight: 600;
+}
+
+.services__option p {
+  text-align: center;
+  font-size: 17px;
+  font-weight: 400;
 }

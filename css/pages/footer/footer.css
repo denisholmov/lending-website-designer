@@ -21,6 +21,8 @@
 
 .footer__inf p {
   margin-bottom: 42px;
+  font-size: 17px;
+  font-weight: 400;
 }
 
 .footer__social-networks {
@@ -39,6 +41,10 @@
 .footer__input {
   padding: 16px 24px;
   background-color: var(--bleached-silk);
+
+  font-size: 17px;
+  font-family: Epilogue, sans-serif;
+  font-weight: 400;
 }
 
 .footer__button {
@@ -51,4 +57,6 @@
 
   font-size: 20px;
   color: var(--white);
+  font-family: Epilogue, sans-serif;
+  font-weight: 600;
 }
